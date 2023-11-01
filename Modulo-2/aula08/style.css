@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+
+body{
+    background-color:rgb(235, 227, 227) ;
+    font-family:"Noto Serif Display", Helvetica, sans-serif ;
+}
+
+
+
+
+h2{
+   color: rgb(187, 99, 99) ;
+}
+p , li 
+{
+    color: rgb(123, 3, 3);
+   
+}
+
+.basico
+{
+    color: green;
+}
+
+.intermediario
+{
+    color : orange
+}
+
+.avancado
+{
+    color:red
+}
+
+#principal
+{
+    background-color: rgb(187, 99, 99);
+    color:white;
+    text-align: center;
+}
+
