@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited
+        {
+            color:darkred;
+        }
+        a:hover
+        {
+            color:black;
+            text-decoration: underline;
+            font-size: 1.5em;
+        }
+        a:active
+        {
+            color:blue;
+        }
+
+        .destaque
+        {
+            background-color: rgb(146, 224, 68);
+        }
+
+        .destaque::before
+        {
+            content:"🠔" ;
+            color: lightgray;
+        }
+        .destaque::after
+        {
+            content:" ➜";
+            text-decoration: none;
+            font-weight: normal;
+            color:lightgray
+        }
+    </style>
+</head>
+<body>
+      <h1>Persosnalizando Links</h1>
+      <ul>
+        <li><a href="https://github.com/Matheus-Nardi/html-css-js" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/matheus-nardi-038169281/" class="destaque" target="_blank">Linkedin</a></li>
+        <li><a href="https://www.youtube.com/watch?v=AlnudmL61ic&ab_channel=may" target="_blank">Música do momento</a></li>
+      </ul>
+</body>
+</html>
