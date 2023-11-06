@@ -1,0 +1,62 @@
+
+header{
+    height: 260px;
+    width: auto;
+    background-image: linear-gradient(to top ,#1E693F ,#3BD17F);
+    
+}
+
+header > h1 
+{
+    text-align: center;
+    padding: 60px 20px;   
+    color: white;
+     
+}
+
+header > p 
+{
+    text-align: center;
+    margin: auto;
+    color:white
+   
+}
+
+body{
+    margin: 0;
+    background-color: #7ff0b1;
+}
+
+nav > a{
+    margin: 5px;
+    color:white;
+    text-decoration:none;
+}
+
+nav > a:hover
+{
+    background-color:rgb(15, 62, 36) ;
+    color:#3BD17F ;
+}
+
+main{
+    height: auto;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+
+}
+
+
+
+.links
+{
+    color:#1E693F;
+    text-decoration: none;
+    background-color:#3BD17F;
+}
+
+.links::after
+{
+    content: '🔗';
+}
