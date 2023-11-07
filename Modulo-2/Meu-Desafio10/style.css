@@ -40,7 +40,6 @@ nav > a:hover
 }
 
 main{
-    height: auto;
     width: 800px;
     margin: auto;
     background-color: white;
@@ -59,4 +58,25 @@ main{
 .links::after
 {
     content: '🔗';
+}
+
+picture
+{
+    margin: 15px;
+}
+
+#bugDroidImg
+{
+    text-align: center;
+}
+
+mark{
+    color:#1E693F;
+    background-color:#3BD17F;
+}
+
+#videoAndroid
+{
+    background-color: #1E693F;
+    text-align: center;
 }
